@@ -24,14 +24,15 @@ TARGET_APP := "CLIPStudioPaint.exe"
 KEY_MAPPINGS := [
     {type: "double-click", source: "a", target_type: "click", target: "^+n"},
     {type: "combine", source: "ax", target_type: "click", target: "{Delete}"},
-    {type: "long-press", source: "a", target_type: "long-press", target: "l"}
+    {type: "long-press", source: "a", target_type: "long-press", target: "d"}
 ]
 ```
 
 以上实现:
 - 双击 `a` 转换为 `ctrl + shift + n`, 在 CSP 中等于新建图层
 - 连续按 `ax` 等于按 `Delete` 删除画面内容
-- 长按 `a` 在 CSP 中等于长按 `l`，临时切换套锁工具
+- 长按 `a` 在 CSP 中等于长按 `d`，临时切换选择图层工具
+- 
 
 
 修改 csp.ahk 中的前缀键忽略列表，永远不用于触发按键重映射的 key：
