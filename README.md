@@ -24,7 +24,7 @@ TARGET_APP := "CLIPStudioPaint.exe"
 KEY_MAPPINGS := [
     {type: "double-click", source: "a", target_type: "click", target: "^+n"},
     {type: "combine", source: "ax", target_type: "click", target: "{Delete}"},
-    {type: "long-press", source: "q", target_type: "long-press", target: "l"}
+    {type: "long-press", source: "a", target_type: "long-press", target: "l"}
 ]
 ```
 
