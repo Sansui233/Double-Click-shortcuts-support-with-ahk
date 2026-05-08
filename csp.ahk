@@ -7,6 +7,8 @@
 TARGET_APP := "CLIPStudioPaint.exe"
 THRESHOLD := 200
 
+#HotIf WinActive(TARGET_APP)
+
 KEY_MAPPINGS := [
     { type: "double-click", source: "a", target_type: "click", target: "^+n" },
     { type: "combine", source: "ax", target_type: "click", target: "{DEL}" }, 
@@ -355,7 +357,7 @@ CheckHistory(now) {
 ; Hotkeys
 ; ============================================================================
 
-#HotIf WinActive(TARGET_APP)
+
 
 HandleKey(key) {
     global keys_history
