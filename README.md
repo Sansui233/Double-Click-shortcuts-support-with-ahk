@@ -8,8 +8,6 @@
 有了它，再也不用 `ctrl + z` 按到腱鞘炎啦！
 有了它，再也不用 `ctrl + shift + alt + e` 啦！
 
-> 本来是设计给 CSP 和 PS 这种需要单手快捷键用的。所以设计了单键长按。
-
 ## 运行
 
 安装 auto hot key v2 后，双击运行 csp.ahk。
