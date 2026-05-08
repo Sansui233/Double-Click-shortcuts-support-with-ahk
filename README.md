@@ -40,7 +40,7 @@ IGNORE_KEYS := ["b", "c", "e", "x", "z"]
 ```
 > 上述配置中 "xa" 中 "x" 将不会被处理，按下即传递以降低延时。但 "ax" a 按下后，x 依然会被脚本处理。
 
-## keymaKEY_MAPPINGSpping 说明
+## KEY_MAPPINGS 说明
 
 KEY_MAPPINGS 每一项都对应了：
 
