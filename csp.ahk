@@ -12,8 +12,6 @@ KEY_MAPPINGS := [
     { type: "combine", source: "ax", target_type: "click", target: "{DEL}" }, 
     { type: "long-press", source: "a", target_type: "long-press", target: "l" },
     { type: "click", source: "z", target_type: "click", target: "^z" },
-    { type: "combine", source: "zx", target_type: "click", target: "[" },
-    { type: "combine", source: "zc", target_type: "click", target: "]" },
 ]
 
 IGNORE_KEYS := ["b", "c", "e", "x"]
